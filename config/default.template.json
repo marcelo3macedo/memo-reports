@@ -1,0 +1,16 @@
+{
+    "cron": {
+        "tasks": [
+            {
+                "name": "feed-decks",
+                "schedule": "0 */30 * * * *",
+                "active": true
+            },
+            {
+                "name": "schedule-decks",
+                "schedule": "0 0 */1 * * *",
+                "active": true
+            }
+        ] 
+    }  
+}

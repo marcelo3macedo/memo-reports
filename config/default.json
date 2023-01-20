@@ -1,0 +1,11 @@
+{
+    "cron": {
+        "tasks": [
+            {
+                "name": "generate-reports",
+                "schedule": "*/5 * * * * *",
+                "active": true
+            }
+        ] 
+    }  
+}
